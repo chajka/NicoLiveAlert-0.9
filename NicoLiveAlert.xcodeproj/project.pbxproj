@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DEE0966198279CA00A0A76D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEE0965198279CA00A0A76D /* Cocoa.framework */; };
+		1DEE0970198279CA00A0A76D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DEE096E198279CA00A0A76D /* InfoPlist.strings */; };
+		1DEE0972198279CA00A0A76D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEE0971198279CA00A0A76D /* main.m */; };
+		1DEE0976198279CA00A0A76D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1DEE0974198279CA00A0A76D /* Credits.rtf */; };
+		1DEE0979198279CA00A0A76D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEE0978198279CA00A0A76D /* AppDelegate.m */; };
+		1DEE097C198279CA00A0A76D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEE097A198279CA00A0A76D /* MainMenu.xib */; };
+		1DEE097E198279CA00A0A76D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEE097D198279CA00A0A76D /* Images.xcassets */; };
+		1DEE0985198279CA00A0A76D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEE0984198279CA00A0A76D /* XCTest.framework */; };
+		1DEE0986198279CA00A0A76D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEE0965198279CA00A0A76D /* Cocoa.framework */; };
+		1DEE098E198279CA00A0A76D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DEE098C198279CA00A0A76D /* InfoPlist.strings */; };
+		1DEE0990198279CA00A0A76D /* NicoLiveAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEE098F198279CA00A0A76D /* NicoLiveAlertTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DEE0987198279CA00A0A76D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DEE095A198279CA00A0A76D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DEE0961198279CA00A0A76D;
+			remoteInfo = NicoLiveAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DEE0962198279CA00A0A76D /* NicoLiveAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NicoLiveAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEE0965198279CA00A0A76D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1DEE0968198279CA00A0A76D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1DEE0969198279CA00A0A76D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1DEE096A198279CA00A0A76D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DEE096D198279CA00A0A76D /* NicoLiveAlert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NicoLiveAlert-Info.plist"; sourceTree = "<group>"; };
+		1DEE096F198279CA00A0A76D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DEE0971198279CA00A0A76D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DEE0973198279CA00A0A76D /* NicoLiveAlert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NicoLiveAlert-Prefix.pch"; sourceTree = "<group>"; };
+		1DEE0975198279CA00A0A76D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1DEE0977198279CA00A0A76D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DEE0978198279CA00A0A76D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DEE097B198279CA00A0A76D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1DEE097D198279CA00A0A76D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DEE0983198279CA00A0A76D /* NicoLiveAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicoLiveAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEE0984198279CA00A0A76D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1DEE098B198279CA00A0A76D /* NicoLiveAlertTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NicoLiveAlertTests-Info.plist"; sourceTree = "<group>"; };
+		1DEE098D198279CA00A0A76D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DEE098F198279CA00A0A76D /* NicoLiveAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NicoLiveAlertTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DEE095F198279CA00A0A76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEE0966198279CA00A0A76D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEE0980198279CA00A0A76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEE0986198279CA00A0A76D /* Cocoa.framework in Frameworks */,
+				1DEE0985198279CA00A0A76D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DEE0959198279CA00A0A76D = {
+			isa = PBXGroup;
+			children = (
+				1DEE096B198279CA00A0A76D /* NicoLiveAlert */,
+				1DEE0989198279CA00A0A76D /* NicoLiveAlertTests */,
+				1DEE0964198279CA00A0A76D /* Frameworks */,
+				1DEE0963198279CA00A0A76D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DEE0963198279CA00A0A76D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DEE0962198279CA00A0A76D /* NicoLiveAlert.app */,
+				1DEE0983198279CA00A0A76D /* NicoLiveAlertTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DEE0964198279CA00A0A76D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DEE0965198279CA00A0A76D /* Cocoa.framework */,
+				1DEE0984198279CA00A0A76D /* XCTest.framework */,
+				1DEE0967198279CA00A0A76D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DEE0967198279CA00A0A76D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DEE0968198279CA00A0A76D /* AppKit.framework */,
+				1DEE0969198279CA00A0A76D /* CoreData.framework */,
+				1DEE096A198279CA00A0A76D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1DEE096B198279CA00A0A76D /* NicoLiveAlert */ = {
+			isa = PBXGroup;
+			children = (
+				1DEE0977198279CA00A0A76D /* AppDelegate.h */,
+				1DEE0978198279CA00A0A76D /* AppDelegate.m */,
+				1DEE097A198279CA00A0A76D /* MainMenu.xib */,
+				1DEE097D198279CA00A0A76D /* Images.xcassets */,
+				1DEE096C198279CA00A0A76D /* Supporting Files */,
+			);
+			path = NicoLiveAlert;
+			sourceTree = "<group>";
+		};
+		1DEE096C198279CA00A0A76D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DEE096D198279CA00A0A76D /* NicoLiveAlert-Info.plist */,
+				1DEE096E198279CA00A0A76D /* InfoPlist.strings */,
+				1DEE0971198279CA00A0A76D /* main.m */,
+				1DEE0973198279CA00A0A76D /* NicoLiveAlert-Prefix.pch */,
+				1DEE0974198279CA00A0A76D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DEE0989198279CA00A0A76D /* NicoLiveAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DEE098F198279CA00A0A76D /* NicoLiveAlertTests.m */,
+				1DEE098A198279CA00A0A76D /* Supporting Files */,
+			);
+			path = NicoLiveAlertTests;
+			sourceTree = "<group>";
+		};
+		1DEE098A198279CA00A0A76D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DEE098B198279CA00A0A76D /* NicoLiveAlertTests-Info.plist */,
+				1DEE098C198279CA00A0A76D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DEE0961198279CA00A0A76D /* NicoLiveAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEE0993198279CA00A0A76D /* Build configuration list for PBXNativeTarget "NicoLiveAlert" */;
+			buildPhases = (
+				1DEE095E198279CA00A0A76D /* Sources */,
+				1DEE095F198279CA00A0A76D /* Frameworks */,
+				1DEE0960198279CA00A0A76D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NicoLiveAlert;
+			productName = NicoLiveAlert;
+			productReference = 1DEE0962198279CA00A0A76D /* NicoLiveAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DEE0982198279CA00A0A76D /* NicoLiveAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEE0996198279CA00A0A76D /* Build configuration list for PBXNativeTarget "NicoLiveAlertTests" */;
+			buildPhases = (
+				1DEE097F198279CA00A0A76D /* Sources */,
+				1DEE0980198279CA00A0A76D /* Frameworks */,
+				1DEE0981198279CA00A0A76D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DEE0988198279CA00A0A76D /* PBXTargetDependency */,
+			);
+			name = NicoLiveAlertTests;
+			productName = NicoLiveAlertTests;
+			productReference = 1DEE0983198279CA00A0A76D /* NicoLiveAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DEE095A198279CA00A0A76D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Instrumentality of mankind";
+				TargetAttributes = {
+					1DEE0982198279CA00A0A76D = {
+						TestTargetID = 1DEE0961198279CA00A0A76D;
+					};
+				};
+			};
+			buildConfigurationList = 1DEE095D198279CA00A0A76D /* Build configuration list for PBXProject "NicoLiveAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DEE0959198279CA00A0A76D;
+			productRefGroup = 1DEE0963198279CA00A0A76D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DEE0961198279CA00A0A76D /* NicoLiveAlert */,
+				1DEE0982198279CA00A0A76D /* NicoLiveAlertTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DEE0960198279CA00A0A76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEE0970198279CA00A0A76D /* InfoPlist.strings in Resources */,
+				1DEE097E198279CA00A0A76D /* Images.xcassets in Resources */,
+				1DEE0976198279CA00A0A76D /* Credits.rtf in Resources */,
+				1DEE097C198279CA00A0A76D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEE0981198279CA00A0A76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEE098E198279CA00A0A76D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DEE095E198279CA00A0A76D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEE0979198279CA00A0A76D /* AppDelegate.m in Sources */,
+				1DEE0972198279CA00A0A76D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEE097F198279CA00A0A76D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEE0990198279CA00A0A76D /* NicoLiveAlertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DEE0988198279CA00A0A76D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DEE0961198279CA00A0A76D /* NicoLiveAlert */;
+			targetProxy = 1DEE0987198279CA00A0A76D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DEE096E198279CA00A0A76D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DEE096F198279CA00A0A76D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DEE0974198279CA00A0A76D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DEE0975198279CA00A0A76D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1DEE097A198279CA00A0A76D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DEE097B198279CA00A0A76D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1DEE098C198279CA00A0A76D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DEE098D198279CA00A0A76D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEE0991198279CA00A0A76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEE0992198279CA00A0A76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1DEE0994198279CA00A0A76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NicoLiveAlert/NicoLiveAlert-Prefix.pch";
+				INFOPLIST_FILE = "NicoLiveAlert/NicoLiveAlert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1DEE0995198279CA00A0A76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NicoLiveAlert/NicoLiveAlert-Prefix.pch";
+				INFOPLIST_FILE = "NicoLiveAlert/NicoLiveAlert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1DEE0997198279CA00A0A76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NicoLiveAlert.app/Contents/MacOS/NicoLiveAlert";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NicoLiveAlert/NicoLiveAlert-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NicoLiveAlertTests/NicoLiveAlertTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1DEE0998198279CA00A0A76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NicoLiveAlert.app/Contents/MacOS/NicoLiveAlert";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NicoLiveAlert/NicoLiveAlert-Prefix.pch";
+				INFOPLIST_FILE = "NicoLiveAlertTests/NicoLiveAlertTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEE095D198279CA00A0A76D /* Build configuration list for PBXProject "NicoLiveAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEE0991198279CA00A0A76D /* Debug */,
+				1DEE0992198279CA00A0A76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEE0993198279CA00A0A76D /* Build configuration list for PBXNativeTarget "NicoLiveAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEE0994198279CA00A0A76D /* Debug */,
+				1DEE0995198279CA00A0A76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DEE0996198279CA00A0A76D /* Build configuration list for PBXNativeTarget "NicoLiveAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEE0997198279CA00A0A76D /* Debug */,
+				1DEE0998198279CA00A0A76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DEE095A198279CA00A0A76D /* Project object */;
+}
