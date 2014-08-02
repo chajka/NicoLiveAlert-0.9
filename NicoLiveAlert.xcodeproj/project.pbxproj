@@ -115,6 +115,13 @@
 			path = NicoLiveAlert;
 			sourceTree = "<group>";
 		};
+		1DB54EE8198BDFD600CF8DC9 /* Program */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Program;
+			sourceTree = "<group>";
+		};
 		1DEE0959198279CA00A0A76D = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				1D1D09BE198BD304002B88EE /* Application */,
+				1DB54EE8198BDFD600CF8DC9 /* Program */,
 				1DEE097D198279CA00A0A76D /* Images.xcassets */,
 				1DEE096C198279CA00A0A76D /* Supporting Files */,
 			);
