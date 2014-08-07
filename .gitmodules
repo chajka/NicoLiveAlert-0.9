@@ -1,0 +1,3 @@
+[submodule "NicoLiveAlert/External/MASPreferences"]
+	path = NicoLiveAlert/External/MASPreferences
+	url = https://chajka@github.com/shpakovski/MASPreferences.git
