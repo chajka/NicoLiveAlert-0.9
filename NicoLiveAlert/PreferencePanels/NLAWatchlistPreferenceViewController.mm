@@ -8,11 +8,16 @@
 
 #import "NLAWatchlistPreferenceViewController.h"
 
-#define CommunityThumbnailPath			@"http://icon.nimg.jp/community/%lu/%@.jpg"
-#define CommunityNoThumbnailPath		@"http://icon.nimg.jp/404.jpg"
-#define UserThumnailPath				@"http://usericon.nimg.jp/usericon/%d/%d.jpg"
-#define NoThumnbnailUserIconPath		@"http://uni.res.nimg.jp/img/user/thumb/blank.jpg"
-#define ChannelThumbnailPath			@"http://icon.nimg.jp/channel/%@.jpg"
+static NSString *CommunityThumbnailPath =		@"http://icon.nimg.jp/community/%lu/%@.jpg";
+static NSString *CommunityNoThumbnailPath =		@"http://icon.nimg.jp/404.jpg";
+static NSString *UserThumnailPath =				@"http://usericon.nimg.jp/usericon/%d/%d.jpg";
+static NSString *NoThumnbnailUserIconPath =		@"http://uni.res.nimg.jp/img/user/thumb/blank.jpg";
+static NSString *ChannelThumbnailPath =			@"http://icon.nimg.jp/channel/%@.jpg";
+
+static NSString *WatchlistPrefNibName =			@"NLAWatchlistPreferenceView";
+static NSString *WatchlistPrefIdentifier =		@"WatchlistPreferences";
+static NSString *WatchlistImageName =			@"watch";
+#define	WatchlistToolBarTitle					NSLocalizedString(@"WatchlistPreferences", @"Watchlist")
 
 typedef enum : NSUInteger {
     idxCommunity = 1,

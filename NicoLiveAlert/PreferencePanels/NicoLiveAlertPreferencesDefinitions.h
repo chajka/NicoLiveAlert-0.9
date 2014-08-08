@@ -24,11 +24,11 @@
 #define PrefkeyKickCommentViewerOnMyBroadcast		@"KickCommentViewerOnMyBroadcast"
 #define PrefkeyKickStreamerOnMyBroadcast			@"KickStreamerOnMyBroadcast"
 
-#pragma mark - Watchlist
-#define WatchlistPrefNibName						@"NLAWatchlistPreferenceView"
-#define	WatchlistPrefIdentifier						@"WatchlistPreferences"
-#define WatchlistImageName							@"watch"
-#define	WatchlistToolBarTitle						NSLocalizedString(@"WatchlistPreferences", @"Watchlist")
+	#pragma mark - Watchlist
+	//#define WatchlistPrefNibName						@"NLAWatchlistPreferenceView"
+	//#define	WatchlistPrefIdentifier					@"WatchlistPreferences"
+	//#define WatchlistImageName						@"watch"
+	//#define	WatchlistToolBarTitle						NSLocalizedString(@"WatchlistPreferences", @"Watchlist")
 #define PrefKeyWatchlist							@"Watchlist"
 #define DictkeyThumbnail							@"humbnail"
 #define DictKeyWatchItem							@"WatchItem"
