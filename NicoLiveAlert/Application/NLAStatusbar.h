@@ -9,10 +9,14 @@
 #import <Foundation/Foundation.h>
 
 @interface NLAStatusbar : NSObject {
-	NSMenu			*statusMenu;
+	__strong NSStatusBar	*systemStatusbar;
+	__strong NSStatusItem	*statusbarItem;
+	__strong NSMenu			*statusMenu;
 	NSArray			*userPrograms;
 	NSArray			*officialPrograms;
 }
 - (id) initWithMenu:(NSMenu *)menu;
+
+- (void) installWithImageName:(NSString *)imageName;
 
 @end

@@ -24,10 +24,17 @@
 
 #pragma mark - override
 #pragma mark - delegate
-#pragma mark - instance method
 #pragma mark - properties
 #pragma mark - actions
 #pragma mark - messages
+- (void) installWithImageName:(NSString *)imageName
+{
+	systemStatusbar = [NSStatusBar systemStatusBar];
+	statusbarItem = [systemStatusbar statusItemWithLength:NSVariableStatusItemLength];
+	[statusbarItem setHighlightMode:YES];
+	[statusbarItem setImage:[NSImage imageNamed:imageName]];
+	[statusbarItem setMenu:statusMenu];
+}// end - (void) installWithImageName:(NSString *)imageName
 #pragma mark - private
 #pragma mark - C functions
 
