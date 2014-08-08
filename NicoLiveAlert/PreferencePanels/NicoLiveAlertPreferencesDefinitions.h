@@ -10,10 +10,6 @@
 #define NicoLiveAlert_NicoLiveAlertPreferencesDefinitions_h
 
 	#pragma mark - General
-	//#define GeneralPrefNibName						@"NLAGeneralPreferenceView"
-	//#define GeneralPrefIdentifier						@"GeneralPreferences"
-	//#define GeneralImageName							NSImageNamePreferencesGeneral
-	//#define GeneralToolBarTitle							NSLocalizedString(@"GeneralPreferences", @"General")
 
 #define PrefkeyAutoOpenCheckedLive					@"AutoOpenCheckedLive"
 #define PrefkeyCheckOfficialChannel					@"CheckOfficialChannel"
@@ -25,20 +21,13 @@
 #define PrefkeyKickStreamerOnMyBroadcast			@"KickStreamerOnMyBroadcast"
 
 	#pragma mark - Watchlist
-	//#define WatchlistPrefNibName						@"NLAWatchlistPreferenceView"
-	//#define	WatchlistPrefIdentifier					@"WatchlistPreferences"
-	//#define WatchlistImageName						@"watch"
-	//#define	WatchlistToolBarTitle						NSLocalizedString(@"WatchlistPreferences", @"Watchlist")
+
 #define PrefKeyWatchlist							@"Watchlist"
 #define DictkeyThumbnail							@"humbnail"
 #define DictKeyWatchItem							@"WatchItem"
 #define DictKeyWatchNote							@"WatchNote"
 
 	#pragma mark - Notify
-	//#define NotifyPrefNibName							@"NLANotiryPreferenceView"
-	//#define	NotifyPrefIdentifier						@"NotifyPreferences"
-	//#define NotifyImageName								@"Bell"
-	//#define	NotifyToolBarTitle							NSLocalizedString(@"NotifyPreferences", @"Notify")
 
 #define LocalSoundsDir								@"~/Library/Sounds"
 #define SystemSoundsDir								@"/System/Library/Sounds"
@@ -57,9 +46,5 @@
 
 
 	#pragma mark - Account
-	//#define AccountPrefNibName							@"NLAAccountPreferenceView"
-	//#define	AccountPrefIdentifier						@"AccountPreferences"
-	//#define AccountImageName							@"keys"
-	//#define	AccountToolBarTitle						NSLocalizedString(@"AccountPreferences", @"Account")
 
 #endif
