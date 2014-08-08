@@ -8,11 +8,12 @@
 
 #ifndef NicoLiveAlert_NicoLiveAlertPreferencesDefinitions_h
 #define NicoLiveAlert_NicoLiveAlertPreferencesDefinitions_h
-#pragma mark - General
-#define GeneralPrefNibName							@"NLAGeneralPreferenceView"
-#define GeneralPrefIdentifier						@"GeneralPreferences"
-#define GeneralImageName							NSImageNamePreferencesGeneral
-#define GeneralToolBarTitle							NSLocalizedString(@"GeneralPreferences", @"General")
+
+	#pragma mark - General
+	//#define GeneralPrefNibName						@"NLAGeneralPreferenceView"
+	//#define GeneralPrefIdentifier						@"GeneralPreferences"
+	//#define GeneralImageName							NSImageNamePreferencesGeneral
+	//#define GeneralToolBarTitle							NSLocalizedString(@"GeneralPreferences", @"General")
 
 #define PrefkeyAutoOpenCheckedLive					@"AutoOpenCheckedLive"
 #define PrefkeyCheckOfficialChannel					@"CheckOfficialChannel"
