@@ -10,6 +10,16 @@
 #import "MASPreferencesViewController.h"
 #import "NicoLiveAlertPreferencesDefinitions.h"
 
-@interface NLAGeneralPreferenceViewController : NSViewController <MASPreferencesViewController>
+@interface NLAGeneralPreferenceViewController : NSViewController <MASPreferencesViewController> {
+	IBOutlet NSBox		*boxApplicationCollaboration;
+	IBOutlet NSButton	*chkboxKickCommentViewerOpenByMe;
+	IBOutlet NSButton	*chkboxKickCommentViewerAtAutoOpen;
+	IBOutlet NSButton	*chkboxDoNotAutoOpenInBroadcasting;
+	IBOutlet NSButton	*chkboxKickStreamerOnMyBroadcast;
+	IBOutlet NSButton	*chkboxKickCommentViewerOnMyBroadcast;
+
+	IBOutlet NSBox		*boxTinyLauncher;
+	
+}
 
 @end
