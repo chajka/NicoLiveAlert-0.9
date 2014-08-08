@@ -79,6 +79,9 @@
 		1DECEA5C199466F6000C99E4 /* Accounts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA44199466F6000C99E4 /* Accounts.png */; };
 		1DECEA5F1994D445000C99E4 /* NLAStatusbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DECEA5E1994D445000C99E4 /* NLAStatusbar.m */; };
 		1DECEA601994D445000C99E4 /* NLAStatusbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DECEA5E1994D445000C99E4 /* NLAStatusbar.m */; };
+		1DECEA641994FC48000C99E4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA611994FC48000C99E4 /* Localizable.strings */; };
+		1DECEA651994FC48000C99E4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA611994FC48000C99E4 /* Localizable.strings */; };
+		1DECEA661994FC48000C99E4 /* NicoLiveAlert-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DB54EDF198BD3CC00CF8DC9 /* NicoLiveAlert-Info.plist */; };
 		1DEE0966198279CA00A0A76D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEE0965198279CA00A0A76D /* Cocoa.framework */; };
 		1DEE097E198279CA00A0A76D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEE097D198279CA00A0A76D /* Images.xcassets */; };
 		1DEE0985198279CA00A0A76D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEE0984198279CA00A0A76D /* XCTest.framework */; };
@@ -178,6 +181,8 @@
 		1DECEA44199466F6000C99E4 /* Accounts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Accounts.png; path = Images.xcassets/Accounts.png; sourceTree = "<group>"; };
 		1DECEA5D1994D445000C99E4 /* NLAStatusbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLAStatusbar.h; path = Application/NLAStatusbar.h; sourceTree = "<group>"; };
 		1DECEA5E1994D445000C99E4 /* NLAStatusbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLAStatusbar.m; path = Application/NLAStatusbar.m; sourceTree = "<group>"; };
+		1DECEA621994FC48000C99E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizeable/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1DECEA631994FC48000C99E4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = Localizeable/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1DEE0962198279CA00A0A76D /* NicoLiveAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NicoLiveAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEE0965198279CA00A0A76D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1DEE0968198279CA00A0A76D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -382,11 +387,12 @@
 		1DEE096C198279CA00A0A76D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1DECEA611994FC48000C99E4 /* Localizable.strings */,
+				1DB54ED9198BD3BE00CF8DC9 /* InfoPlist.strings */,
+				1DB54EDB198BD3BE00CF8DC9 /* Credits.rtf */,
 				1DB54EDF198BD3CC00CF8DC9 /* NicoLiveAlert-Info.plist */,
 				1DB54EE0198BD3CC00CF8DC9 /* NicoLiveAlert-Prefix.pch */,
 				1DB54EE1198BD3CC00CF8DC9 /* main.m */,
-				1DB54ED9198BD3BE00CF8DC9 /* InfoPlist.strings */,
-				1DB54EDB198BD3BE00CF8DC9 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -471,6 +477,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 1DEE0959198279CA00A0A76D;
 			productRefGroup = 1DEE0963198279CA00A0A76D /* Products */;
@@ -501,6 +508,7 @@
 				1D1D09C4198BD376002B88EE /* NicoLiveAlert.xib in Resources */,
 				1DECEA53199466F6000C99E4 /* Growl.png in Resources */,
 				1DECEA49199466F6000C99E4 /* NicoLiveAlert.icns in Resources */,
+				1DECEA641994FC48000C99E4 /* Localizable.strings in Resources */,
 				1D00A8BC1993CFD500ACF48C /* NLANotiryPreferenceView.xib in Resources */,
 				1DB54EDD198BD3BE00CF8DC9 /* InfoPlist.strings in Resources */,
 				1DECEA51199466F6000C99E4 /* idle.png in Resources */,
@@ -523,6 +531,8 @@
 				1DECEA48199466F6000C99E4 /* sbicon.png in Resources */,
 				1DECEA4E199466F6000C99E4 /* Key.png in Resources */,
 				1DECEA4A199466F6000C99E4 /* NicoLiveAlert.icns in Resources */,
+				1DECEA651994FC48000C99E4 /* Localizable.strings in Resources */,
+				1DECEA661994FC48000C99E4 /* NicoLiveAlert-Info.plist in Resources */,
 				1DECEA52199466F6000C99E4 /* idle.png in Resources */,
 				1D00A8C51993D02000ACF48C /* NLAWatchlistPreferenceView.xib in Resources */,
 				1D00A8BD1993CFD500ACF48C /* NLANotiryPreferenceView.xib in Resources */,
@@ -654,6 +664,15 @@
 				1DB54EDC198BD3BE00CF8DC9 /* en */,
 			);
 			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1DECEA611994FC48000C99E4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DECEA621994FC48000C99E4 /* en */,
+				1DECEA631994FC48000C99E4 /* ja */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		1DEE098C198279CA00A0A76D /* InfoPlist.strings */ = {
