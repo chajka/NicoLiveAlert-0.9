@@ -53,6 +53,30 @@
 		1DB54EE3198BD3CC00CF8DC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB54EE1198BD3CC00CF8DC9 /* main.m */; };
 		1DB54EE6198BD3F000CF8DC9 /* NicoLiveAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB54EE4198BD3F000CF8DC9 /* NicoLiveAlert.m */; };
 		1DB54EE7198BD3F000CF8DC9 /* NicoLiveAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB54EE4198BD3F000CF8DC9 /* NicoLiveAlert.m */; };
+		1DECEA45199466F6000C99E4 /* watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA39199466F6000C99E4 /* watch.png */; };
+		1DECEA46199466F6000C99E4 /* watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA39199466F6000C99E4 /* watch.png */; };
+		1DECEA47199466F6000C99E4 /* sbicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA3A199466F6000C99E4 /* sbicon.png */; };
+		1DECEA48199466F6000C99E4 /* sbicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA3A199466F6000C99E4 /* sbicon.png */; };
+		1DECEA49199466F6000C99E4 /* NicoLiveAlert.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA3B199466F6000C99E4 /* NicoLiveAlert.icns */; };
+		1DECEA4A199466F6000C99E4 /* NicoLiveAlert.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA3B199466F6000C99E4 /* NicoLiveAlert.icns */; };
+		1DECEA4B199466F6000C99E4 /* keys.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA3C199466F6000C99E4 /* keys.png */; };
+		1DECEA4C199466F6000C99E4 /* keys.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA3C199466F6000C99E4 /* keys.png */; };
+		1DECEA4D199466F6000C99E4 /* Key.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA3D199466F6000C99E4 /* Key.png */; };
+		1DECEA4E199466F6000C99E4 /* Key.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA3D199466F6000C99E4 /* Key.png */; };
+		1DECEA4F199466F6000C99E4 /* invisible.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA3E199466F6000C99E4 /* invisible.png */; };
+		1DECEA50199466F6000C99E4 /* invisible.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA3E199466F6000C99E4 /* invisible.png */; };
+		1DECEA51199466F6000C99E4 /* idle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA3F199466F6000C99E4 /* idle.png */; };
+		1DECEA52199466F6000C99E4 /* idle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA3F199466F6000C99E4 /* idle.png */; };
+		1DECEA53199466F6000C99E4 /* Growl.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA40199466F6000C99E4 /* Growl.png */; };
+		1DECEA54199466F6000C99E4 /* Growl.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA40199466F6000C99E4 /* Growl.png */; };
+		1DECEA55199466F6000C99E4 /* Bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA41199466F6000C99E4 /* Bell.png */; };
+		1DECEA56199466F6000C99E4 /* Bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA41199466F6000C99E4 /* Bell.png */; };
+		1DECEA57199466F6000C99E4 /* away.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA42199466F6000C99E4 /* away.png */; };
+		1DECEA58199466F6000C99E4 /* away.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA42199466F6000C99E4 /* away.png */; };
+		1DECEA59199466F6000C99E4 /* available.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA43199466F6000C99E4 /* available.png */; };
+		1DECEA5A199466F6000C99E4 /* available.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA43199466F6000C99E4 /* available.png */; };
+		1DECEA5B199466F6000C99E4 /* Accounts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA44199466F6000C99E4 /* Accounts.png */; };
+		1DECEA5C199466F6000C99E4 /* Accounts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA44199466F6000C99E4 /* Accounts.png */; };
 		1DEE0966198279CA00A0A76D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEE0965198279CA00A0A76D /* Cocoa.framework */; };
 		1DEE097E198279CA00A0A76D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEE097D198279CA00A0A76D /* Images.xcassets */; };
 		1DEE0985198279CA00A0A76D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEE0984198279CA00A0A76D /* XCTest.framework */; };
@@ -138,6 +162,18 @@
 		1DB54EE1198BD3CC00CF8DC9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		1DB54EE4198BD3F000CF8DC9 /* NicoLiveAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NicoLiveAlert.m; path = Application/NicoLiveAlert.m; sourceTree = "<group>"; };
 		1DB54EE5198BD3F000CF8DC9 /* NicoLiveAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NicoLiveAlert.h; path = Application/NicoLiveAlert.h; sourceTree = "<group>"; };
+		1DECEA39199466F6000C99E4 /* watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watch.png; path = Images.xcassets/watch.png; sourceTree = "<group>"; };
+		1DECEA3A199466F6000C99E4 /* sbicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sbicon.png; path = Images.xcassets/sbicon.png; sourceTree = "<group>"; };
+		1DECEA3B199466F6000C99E4 /* NicoLiveAlert.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = NicoLiveAlert.icns; path = Images.xcassets/NicoLiveAlert.icns; sourceTree = "<group>"; };
+		1DECEA3C199466F6000C99E4 /* keys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = keys.png; path = Images.xcassets/keys.png; sourceTree = "<group>"; };
+		1DECEA3D199466F6000C99E4 /* Key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Key.png; path = Images.xcassets/Key.png; sourceTree = "<group>"; };
+		1DECEA3E199466F6000C99E4 /* invisible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = invisible.png; path = Images.xcassets/invisible.png; sourceTree = "<group>"; };
+		1DECEA3F199466F6000C99E4 /* idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = idle.png; path = Images.xcassets/idle.png; sourceTree = "<group>"; };
+		1DECEA40199466F6000C99E4 /* Growl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Growl.png; path = Images.xcassets/Growl.png; sourceTree = "<group>"; };
+		1DECEA41199466F6000C99E4 /* Bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bell.png; path = Images.xcassets/Bell.png; sourceTree = "<group>"; };
+		1DECEA42199466F6000C99E4 /* away.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = away.png; path = Images.xcassets/away.png; sourceTree = "<group>"; };
+		1DECEA43199466F6000C99E4 /* available.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = available.png; path = Images.xcassets/available.png; sourceTree = "<group>"; };
+		1DECEA44199466F6000C99E4 /* Accounts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Accounts.png; path = Images.xcassets/Accounts.png; sourceTree = "<group>"; };
 		1DEE0962198279CA00A0A76D /* NicoLiveAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NicoLiveAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEE0965198279CA00A0A76D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1DEE0968198279CA00A0A76D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -245,6 +281,18 @@
 		1D1D09BF198BD30E002B88EE /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1DECEA39199466F6000C99E4 /* watch.png */,
+				1DECEA3A199466F6000C99E4 /* sbicon.png */,
+				1DECEA3B199466F6000C99E4 /* NicoLiveAlert.icns */,
+				1DECEA3C199466F6000C99E4 /* keys.png */,
+				1DECEA3D199466F6000C99E4 /* Key.png */,
+				1DECEA3E199466F6000C99E4 /* invisible.png */,
+				1DECEA3F199466F6000C99E4 /* idle.png */,
+				1DECEA40199466F6000C99E4 /* Growl.png */,
+				1DECEA41199466F6000C99E4 /* Bell.png */,
+				1DECEA42199466F6000C99E4 /* away.png */,
+				1DECEA43199466F6000C99E4 /* available.png */,
+				1DECEA44199466F6000C99E4 /* Accounts.png */,
 			);
 			name = Images;
 			path = NicoLiveAlert;
@@ -436,15 +484,27 @@
 			files = (
 				1D00A8B41993CF7200ACF48C /* NLAGeneralPreferenceView.xib in Resources */,
 				1DEE097E198279CA00A0A76D /* Images.xcassets in Resources */,
+				1DECEA55199466F6000C99E4 /* Bell.png in Resources */,
+				1DECEA59199466F6000C99E4 /* available.png in Resources */,
 				1DB54EDE198BD3BE00CF8DC9 /* Credits.rtf in Resources */,
+				1DECEA4D199466F6000C99E4 /* Key.png in Resources */,
+				1DECEA57199466F6000C99E4 /* away.png in Resources */,
+				1DECEA47199466F6000C99E4 /* sbicon.png in Resources */,
 				1D00A8A71993CE3000ACF48C /* MASPreferencesWindow.xib in Resources */,
+				1DECEA4F199466F6000C99E4 /* invisible.png in Resources */,
 				1D1D09C4198BD376002B88EE /* NicoLiveAlert.xib in Resources */,
+				1DECEA53199466F6000C99E4 /* Growl.png in Resources */,
+				1DECEA49199466F6000C99E4 /* NicoLiveAlert.icns in Resources */,
 				1D00A8BC1993CFD500ACF48C /* NLANotiryPreferenceView.xib in Resources */,
 				1DB54EDD198BD3BE00CF8DC9 /* InfoPlist.strings in Resources */,
+				1DECEA51199466F6000C99E4 /* idle.png in Resources */,
 				1D00A8C41993D02000ACF48C /* NLAWatchlistPreferenceView.xib in Resources */,
 				1D00A8CA1993D06100ACF48C /* NLAAccountPreferenceView.xib in Resources */,
+				1DECEA4B199466F6000C99E4 /* keys.png in Resources */,
 				1DB54EE2198BD3CC00CF8DC9 /* NicoLiveAlert-Info.plist in Resources */,
 				1D00A8AE1993CF5D00ACF48C /* UsersDefaults.plist in Resources */,
+				1DECEA45199466F6000C99E4 /* watch.png in Resources */,
+				1DECEA5B199466F6000C99E4 /* Accounts.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,13 +512,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DECEA4C199466F6000C99E4 /* keys.png in Resources */,
 				1D00A8B51993CF7200ACF48C /* NLAGeneralPreferenceView.xib in Resources */,
+				1DECEA48199466F6000C99E4 /* sbicon.png in Resources */,
+				1DECEA4E199466F6000C99E4 /* Key.png in Resources */,
+				1DECEA4A199466F6000C99E4 /* NicoLiveAlert.icns in Resources */,
+				1DECEA52199466F6000C99E4 /* idle.png in Resources */,
 				1D00A8C51993D02000ACF48C /* NLAWatchlistPreferenceView.xib in Resources */,
 				1D00A8BD1993CFD500ACF48C /* NLANotiryPreferenceView.xib in Resources */,
+				1DECEA46199466F6000C99E4 /* watch.png in Resources */,
 				1D00A8CB1993D06100ACF48C /* NLAAccountPreferenceView.xib in Resources */,
+				1DECEA56199466F6000C99E4 /* Bell.png in Resources */,
+				1DECEA5C199466F6000C99E4 /* Accounts.png in Resources */,
 				1D00A8A81993CE3000ACF48C /* MASPreferencesWindow.xib in Resources */,
+				1DECEA50199466F6000C99E4 /* invisible.png in Resources */,
+				1DECEA5A199466F6000C99E4 /* available.png in Resources */,
 				1D00A8AF1993CF5D00ACF48C /* UsersDefaults.plist in Resources */,
+				1DECEA54199466F6000C99E4 /* Growl.png in Resources */,
 				1DEE098E198279CA00A0A76D /* InfoPlist.strings in Resources */,
+				1DECEA58199466F6000C99E4 /* away.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

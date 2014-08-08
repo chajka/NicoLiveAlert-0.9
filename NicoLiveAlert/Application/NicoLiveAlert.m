@@ -50,7 +50,7 @@ extern "C" {
 #pragma mark - actions
 #pragma mark - messages
 #pragma mark - private
-- (void) openPreference
+- (IBAction) openPreference:(id)sender
 {
 	if (preferenceOpened == NO) {
 		@autoreleasepool {
@@ -67,15 +67,10 @@ extern "C" {
 	}// end if aleready build preference window;
 
 	[preferenceWindowController showWindow:self];
-}// end - (void) openPreference
+}// end - (IBAction) openPreference:(id)sender
 #pragma mark - C functions
 
-- (IBAction) openPreference:(id)sender
-{
-	NSLog(@"open message recieved %@", sender);
-}// end - (IBAction) openPreference:(id)sender
 static
-
 void uncaughtExceptionHandler(NSException *exception)
 {
 	NSLog(@"Exception Name %@, Reason %@", exception.name, exception.reason);
