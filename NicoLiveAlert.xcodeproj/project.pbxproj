@@ -77,6 +77,8 @@
 		1DECEA5A199466F6000C99E4 /* available.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA43199466F6000C99E4 /* available.png */; };
 		1DECEA5B199466F6000C99E4 /* Accounts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA44199466F6000C99E4 /* Accounts.png */; };
 		1DECEA5C199466F6000C99E4 /* Accounts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DECEA44199466F6000C99E4 /* Accounts.png */; };
+		1DECEA5F1994D445000C99E4 /* NLAStatusbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DECEA5E1994D445000C99E4 /* NLAStatusbar.m */; };
+		1DECEA601994D445000C99E4 /* NLAStatusbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DECEA5E1994D445000C99E4 /* NLAStatusbar.m */; };
 		1DEE0966198279CA00A0A76D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEE0965198279CA00A0A76D /* Cocoa.framework */; };
 		1DEE097E198279CA00A0A76D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEE097D198279CA00A0A76D /* Images.xcassets */; };
 		1DEE0985198279CA00A0A76D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEE0984198279CA00A0A76D /* XCTest.framework */; };
@@ -174,6 +176,8 @@
 		1DECEA42199466F6000C99E4 /* away.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = away.png; path = Images.xcassets/away.png; sourceTree = "<group>"; };
 		1DECEA43199466F6000C99E4 /* available.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = available.png; path = Images.xcassets/available.png; sourceTree = "<group>"; };
 		1DECEA44199466F6000C99E4 /* Accounts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Accounts.png; path = Images.xcassets/Accounts.png; sourceTree = "<group>"; };
+		1DECEA5D1994D445000C99E4 /* NLAStatusbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLAStatusbar.h; path = Application/NLAStatusbar.h; sourceTree = "<group>"; };
+		1DECEA5E1994D445000C99E4 /* NLAStatusbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLAStatusbar.m; path = Application/NLAStatusbar.m; sourceTree = "<group>"; };
 		1DEE0962198279CA00A0A76D /* NicoLiveAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NicoLiveAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEE0965198279CA00A0A76D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1DEE0968198279CA00A0A76D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -274,6 +278,8 @@
 				1DB54EE5198BD3F000CF8DC9 /* NicoLiveAlert.h */,
 				1DB54EE4198BD3F000CF8DC9 /* NicoLiveAlert.m */,
 				1D1D09C2198BD376002B88EE /* NicoLiveAlert.xib */,
+				1DECEA5D1994D445000C99E4 /* NLAStatusbar.h */,
+				1DECEA5E1994D445000C99E4 /* NLAStatusbar.m */,
 			);
 			name = Application;
 			sourceTree = "<group>";
@@ -544,6 +550,7 @@
 				1D00A8B01993CF5D00ACF48C /* NLAGeneralPreferenceViewController.mm in Sources */,
 				1D00A8DA1993EA6000ACF48C /* NSString+Oniguruma.m in Sources */,
 				1DB54EE6198BD3F000CF8DC9 /* NicoLiveAlert.m in Sources */,
+				1DECEA5F1994D445000C99E4 /* NLAStatusbar.m in Sources */,
 				1D00A8D61993EA4300ACF48C /* AudioDeviceList.c in Sources */,
 				1D00A8CC1993D06100ACF48C /* NLAAccountPreferenceViewController.mm in Sources */,
 				1D00A8B81993CFB000ACF48C /* NLANotiryPreferenceViewController.mm in Sources */,
@@ -561,6 +568,7 @@
 				1D00A8B11993CF5D00ACF48C /* NLAGeneralPreferenceViewController.mm in Sources */,
 				1D00A8DB1993EA6000ACF48C /* NSString+Oniguruma.m in Sources */,
 				1DEE0990198279CA00A0A76D /* NicoLiveAlertTests.m in Sources */,
+				1DECEA601994D445000C99E4 /* NLAStatusbar.m in Sources */,
 				1D00A8D71993EA4300ACF48C /* AudioDeviceList.c in Sources */,
 				1D00A8CD1993D06100ACF48C /* NLAAccountPreferenceViewController.mm in Sources */,
 				1D00A8B91993CFB000ACF48C /* NLANotiryPreferenceViewController.mm in Sources */,

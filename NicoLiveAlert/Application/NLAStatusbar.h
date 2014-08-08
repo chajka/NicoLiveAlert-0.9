@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NLAStatusbar : NSObject
+@interface NLAStatusbar : NSObject {
+	NSMenu			*statusMenu;
+	NSArray			*userPrograms;
+	NSArray			*officialPrograms;
+}
+- (id) initWithMenu:(NSMenu *)menu;
 
 @end
