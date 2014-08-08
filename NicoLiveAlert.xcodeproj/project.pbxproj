@@ -29,6 +29,14 @@
 		1D00A8CB1993D06100ACF48C /* NLAAccountPreferenceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D00A8C61993D06100ACF48C /* NLAAccountPreferenceView.xib */; };
 		1D00A8CC1993D06100ACF48C /* NLAAccountPreferenceViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D00A8C81993D06100ACF48C /* NLAAccountPreferenceViewController.mm */; };
 		1D00A8CD1993D06100ACF48C /* NLAAccountPreferenceViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D00A8C81993D06100ACF48C /* NLAAccountPreferenceViewController.mm */; };
+		1D00A8D41993EA4300ACF48C /* IntermidiatePath.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D00A8D11993EA4300ACF48C /* IntermidiatePath.c */; };
+		1D00A8D51993EA4300ACF48C /* IntermidiatePath.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D00A8D11993EA4300ACF48C /* IntermidiatePath.c */; };
+		1D00A8D61993EA4300ACF48C /* AudioDeviceList.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D00A8D31993EA4300ACF48C /* AudioDeviceList.c */; };
+		1D00A8D71993EA4300ACF48C /* AudioDeviceList.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D00A8D31993EA4300ACF48C /* AudioDeviceList.c */; };
+		1D00A8DA1993EA6000ACF48C /* NSString+Oniguruma.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D00A8D81993EA6000ACF48C /* NSString+Oniguruma.m */; };
+		1D00A8DB1993EA6000ACF48C /* NSString+Oniguruma.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D00A8D81993EA6000ACF48C /* NSString+Oniguruma.m */; };
+		1D00A8DC1993EAE500ACF48C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEE096A198279CA00A0A76D /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1D00A8DE1993EB3300ACF48C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D00A8DD1993EB3300ACF48C /* CoreFoundation.framework */; };
 		1D1D09C4198BD376002B88EE /* NicoLiveAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D1D09C2198BD376002B88EE /* NicoLiveAlert.xib */; };
 		1D895B71198CCDA700D3E89E /* CocoaOniguruma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D895B6F198CCDA700D3E89E /* CocoaOniguruma.framework */; };
 		1D895B72198CCDA700D3E89E /* CocoaOniguruma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D895B6F198CCDA700D3E89E /* CocoaOniguruma.framework */; };
@@ -112,6 +120,13 @@
 		1D00A8C71993D06100ACF48C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Localizeable/en.lproj/NLAAccountPreferenceView.xib; sourceTree = "<group>"; };
 		1D00A8C81993D06100ACF48C /* NLAAccountPreferenceViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NLAAccountPreferenceViewController.mm; path = PreferencePanels/NLAAccountPreferenceViewController.mm; sourceTree = "<group>"; };
 		1D00A8C91993D06100ACF48C /* NLAAccountPreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLAAccountPreferenceViewController.h; path = PreferencePanels/NLAAccountPreferenceViewController.h; sourceTree = "<group>"; };
+		1D00A8D01993EA4300ACF48C /* IntermidiatePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntermidiatePath.h; path = Common/IntermidiatePath.h; sourceTree = "<group>"; };
+		1D00A8D11993EA4300ACF48C /* IntermidiatePath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = IntermidiatePath.c; path = Common/IntermidiatePath.c; sourceTree = "<group>"; };
+		1D00A8D21993EA4300ACF48C /* AudioDeviceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioDeviceList.h; path = Common/AudioDeviceList.h; sourceTree = "<group>"; };
+		1D00A8D31993EA4300ACF48C /* AudioDeviceList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = AudioDeviceList.c; path = Common/AudioDeviceList.c; sourceTree = "<group>"; };
+		1D00A8D81993EA6000ACF48C /* NSString+Oniguruma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Oniguruma.m"; path = "Cocoa Enhance/NSString+Oniguruma.m"; sourceTree = "<group>"; };
+		1D00A8D91993EA6000ACF48C /* NSString+Oniguruma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Oniguruma.h"; path = "Cocoa Enhance/NSString+Oniguruma.h"; sourceTree = "<group>"; };
+		1D00A8DD1993EB3300ACF48C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		1D1D09C3198BD376002B88EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Localizeable/en.lproj/NicoLiveAlert.xib; sourceTree = "<group>"; };
 		1D895B6F198CCDA700D3E89E /* CocoaOniguruma.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaOniguruma.framework; path = Frameworks/CocoaOniguruma.framework; sourceTree = SOURCE_ROOT; };
 		1D895B70198CCDA700D3E89E /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = Frameworks/Growl.framework; sourceTree = SOURCE_ROOT; };
@@ -141,6 +156,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D00A8DC1993EAE500ACF48C /* Foundation.framework in Frameworks */,
+				1D00A8DE1993EB3300ACF48C /* CoreFoundation.framework in Frameworks */,
 				1D895B71198CCDA700D3E89E /* CocoaOniguruma.framework in Frameworks */,
 				1DEE0966198279CA00A0A76D /* Cocoa.framework in Frameworks */,
 				1D895B73198CCDA700D3E89E /* Growl.framework in Frameworks */,
@@ -195,6 +212,26 @@
 			name = Preference;
 			sourceTree = "<group>";
 		};
+		1D00A8CE1993E9CB00ACF48C /* Cocoa Enhance */ = {
+			isa = PBXGroup;
+			children = (
+				1D00A8D91993EA6000ACF48C /* NSString+Oniguruma.h */,
+				1D00A8D81993EA6000ACF48C /* NSString+Oniguruma.m */,
+			);
+			name = "Cocoa Enhance";
+			sourceTree = "<group>";
+		};
+		1D00A8CF1993EA1B00ACF48C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1D00A8D01993EA4300ACF48C /* IntermidiatePath.h */,
+				1D00A8D11993EA4300ACF48C /* IntermidiatePath.c */,
+				1D00A8D21993EA4300ACF48C /* AudioDeviceList.h */,
+				1D00A8D31993EA4300ACF48C /* AudioDeviceList.c */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		1D1D09BE198BD304002B88EE /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +253,7 @@
 		1D1D09C0198BD321002B88EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1D00A8DD1993EB3300ACF48C /* CoreFoundation.framework */,
 				1D895B6F198CCDA700D3E89E /* CocoaOniguruma.framework */,
 				1D895B70198CCDA700D3E89E /* Growl.framework */,
 				1DABC8311990141E00D47B47 /* Sparkle.framework */,
@@ -279,6 +317,8 @@
 				1DB54EE8198BDFD600CF8DC9 /* Program */,
 				1DEE097D198279CA00A0A76D /* Images.xcassets */,
 				1D00A8A91993CF1F00ACF48C /* Preference */,
+				1D00A8CF1993EA1B00ACF48C /* Common */,
+				1D00A8CE1993E9CB00ACF48C /* Cocoa Enhance */,
 				1DEE096C198279CA00A0A76D /* Supporting Files */,
 				1D00A8A01993CD5E00ACF48C /* External */,
 			);
@@ -430,12 +470,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D00A8B01993CF5D00ACF48C /* NLAGeneralPreferenceViewController.mm in Sources */,
+				1D00A8DA1993EA6000ACF48C /* NSString+Oniguruma.m in Sources */,
 				1DB54EE6198BD3F000CF8DC9 /* NicoLiveAlert.m in Sources */,
+				1D00A8D61993EA4300ACF48C /* AudioDeviceList.c in Sources */,
 				1D00A8CC1993D06100ACF48C /* NLAAccountPreferenceViewController.mm in Sources */,
 				1D00A8B81993CFB000ACF48C /* NLANotiryPreferenceViewController.mm in Sources */,
 				1D00A8C01993D00600ACF48C /* NLAWatchlistPreferenceViewController.mm in Sources */,
 				1D00A8A51993CE3000ACF48C /* MASPreferencesWindowController.m in Sources */,
 				1DB54EE3198BD3CC00CF8DC9 /* main.m in Sources */,
+				1D00A8D41993EA4300ACF48C /* IntermidiatePath.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,12 +487,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D00A8B11993CF5D00ACF48C /* NLAGeneralPreferenceViewController.mm in Sources */,
+				1D00A8DB1993EA6000ACF48C /* NSString+Oniguruma.m in Sources */,
 				1DEE0990198279CA00A0A76D /* NicoLiveAlertTests.m in Sources */,
+				1D00A8D71993EA4300ACF48C /* AudioDeviceList.c in Sources */,
 				1D00A8CD1993D06100ACF48C /* NLAAccountPreferenceViewController.mm in Sources */,
 				1D00A8B91993CFB000ACF48C /* NLANotiryPreferenceViewController.mm in Sources */,
 				1D00A8C11993D00600ACF48C /* NLAWatchlistPreferenceViewController.mm in Sources */,
 				1D00A8A61993CE3000ACF48C /* MASPreferencesWindowController.m in Sources */,
 				1DB54EE7198BD3F000CF8DC9 /* NicoLiveAlert.m in Sources */,
+				1D00A8D51993EA4300ACF48C /* IntermidiatePath.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

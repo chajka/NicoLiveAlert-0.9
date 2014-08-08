@@ -8,7 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface NicoLiveAlert : NSObject <NSApplicationDelegate>
+@interface NicoLiveAlert : NSObject <NSApplicationDelegate> {
+	BOOL					preferenceOpened;
+	NSWindowController		*preferenceWindowController;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 

@@ -7,6 +7,11 @@
 //
 
 #import "NicoLiveAlert.h"
+#import "MASPreferencesWindowController.h"
+#import "NLAGeneralPreferenceViewController.h"
+#import "NLAWatchlistPreferenceViewController.h"
+#import "NLANotiryPreferenceViewController.h"
+#import "NLAAccountPreferenceViewController.h"
 
 @interface NicoLiveAlert ()
 
@@ -45,6 +50,24 @@ extern "C" {
 #pragma mark - actions
 #pragma mark - messages
 #pragma mark - private
+- (void) openPreference
+{
+	if (preferenceOpened == NO) {
+		@autoreleasepool {
+			NLAGeneralPreferenceViewController *general = [[NLAGeneralPreferenceViewController alloc] init];
+			NLAWatchlistPreferenceViewController *watchlist = [[NLAWatchlistPreferenceViewController alloc] init];
+			NLANotiryPreferenceViewController *notify = [[NLANotiryPreferenceViewController alloc] init];
+			NLAAccountPreferenceViewController *accounts = [[NLAAccountPreferenceViewController alloc] init];
+			NSArray *preferencePanels = [NSArray arrayWithObjects:general, watchlist, notify, accounts, nil];
+			
+			preferenceWindowController = [[MASPreferencesWindowController alloc] initWithViewControllers:preferencePanels title:@"Preferences"];
+			[(MASPreferencesWindowController *)preferenceWindowController selectControllerAtIndex:0];
+			
+		}// end autoreleasepool
+	}// end if aleready build preference window;
+
+	[preferenceWindowController showWindow:self];
+}// end - (void) openPreference
 #pragma mark - C functions
 
 - (IBAction) openPreference:(id)sender
