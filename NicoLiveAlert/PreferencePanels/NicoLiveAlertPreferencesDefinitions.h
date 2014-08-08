@@ -35,10 +35,10 @@
 #define DictKeyWatchNote							@"WatchNote"
 
 	#pragma mark - Notify
-#define NotifyPrefNibName							@"NLANotiryPreferenceView"
-#define	NotifyPrefIdentifier						@"NotifyPreferences"
-#define NotifyImageName								@"Bell"
-#define	NotifyToolBarTitle							NSLocalizedString(@"NotifyPreferences", @"Notify")
+	//#define NotifyPrefNibName							@"NLANotiryPreferenceView"
+	//#define	NotifyPrefIdentifier						@"NotifyPreferences"
+	//#define NotifyImageName								@"Bell"
+	//#define	NotifyToolBarTitle							NSLocalizedString(@"NotifyPreferences", @"Notify")
 
 #define LocalSoundsDir								@"~/Library/Sounds"
 #define SystemSoundsDir								@"/System/Library/Sounds"
@@ -56,7 +56,7 @@
 #define PrefkeyStartOfficialProgramSound			@"StartOfficialProgramSound"
 
 
-#pragma mark - Account
+	#pragma mark - Account
 #define AccountPrefNibName							@"NLAAccountPreferenceView"
 #define	AccountPrefIdentifier						@"AccountPreferences"
 #define AccountImageName							@"keys"
