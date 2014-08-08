@@ -57,9 +57,9 @@
 
 
 	#pragma mark - Account
-#define AccountPrefNibName							@"NLAAccountPreferenceView"
-#define	AccountPrefIdentifier						@"AccountPreferences"
-#define AccountImageName							@"keys"
-#define	AccountToolBarTitle						NSLocalizedString(@"AccountPreferences", @"Account")
+	//#define AccountPrefNibName							@"NLAAccountPreferenceView"
+	//#define	AccountPrefIdentifier						@"AccountPreferences"
+	//#define AccountImageName							@"keys"
+	//#define	AccountToolBarTitle						NSLocalizedString(@"AccountPreferences", @"Account")
 
 #endif

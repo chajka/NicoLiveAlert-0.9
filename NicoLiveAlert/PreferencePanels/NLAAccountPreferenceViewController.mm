@@ -8,6 +8,11 @@
 
 #import "NLAAccountPreferenceViewController.h"
 
+static NSString *AccountPrefNibName =			@"NLAAccountPreferenceView";
+static NSString *AccountPrefIdentifier =		@"AccountPreferences";
+static NSString *AccountImageName =				@"keys";
+#define	AccountToolBarTitle						NSLocalizedString(@"AccountPreferences", @"Account")
+
 @interface NLAAccountPreferenceViewController ()
 
 @end
