@@ -9,6 +9,11 @@
 #import "NLANotiryPreferenceViewController.h"
 #import "AudioDeviceList.h"
 
+static NSString *GeneralPrefNibName =		@"NLAGeneralPreferenceView";
+static NSString *GeneralPrefIdentifier =	@"GeneralPreferences";
+#define GeneralImageName					NSImageNamePreferencesGeneral
+#define GeneralToolBarTitle					NSLocalizedString(@"GeneralPreferences", @"General")
+
 @interface NLANotiryPreferenceViewController ()
 
 @end
