@@ -7,11 +7,14 @@
 //
 
 #import "NicoLiveAlert.h"
+
 #import "MASPreferencesWindowController.h"
 #import "NLAGeneralPreferenceViewController.h"
 #import "NLAWatchlistPreferenceViewController.h"
 #import "NLANotiryPreferenceViewController.h"
 #import "NLAAccountPreferenceViewController.h"
+
+static NSString *statusIconName = @"sbicon";
 
 @interface NicoLiveAlert ()
 
@@ -32,12 +35,12 @@ extern "C" {
 - (void) awakeFromNib
 {
 	NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
-	
+	statusbar = [[NLAStatusbar alloc] initWithMenu:statusbarMenu];
 }// end - (void) awakeFromNib
 #pragma mark - delegate
 - (void) applicationWillFinishLaunching:(NSNotification *)notification
 {
-	
+	[statusbar installWithImageName:statusIconName];
 }// end - (void) applicationWillFinishLaunching:(NSNotification *)notification
 
 - (void) applicationDidFinishLaunching:(NSNotification *)notification
