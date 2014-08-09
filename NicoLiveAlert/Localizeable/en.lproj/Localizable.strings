@@ -1,5 +1,12 @@
 	// Preferences titles
 "GeneralPreferences" = "General";
+"TitleApplicationCollaboration" = "Application Collaboration";
+"TitleKickCommentViewerOpenByMe" = "Kick Comment Viewer open from menu.";
+"TitleKickCommentViewerAtAutoOpen" = "Kick Comment Viewer at Auto Open.";
+"TitleDoNotAutoOpenInBroadcasting" = "Do not Auto open when I’m Broadcast.";
+"TitleKickStreamerOnMyBroadcast" = "Kick Streamer When Start by Broadcast";
+"TitleKickCommentViewerOnMyBroadcast" = "Kick Comment Viewer When Start by Broadcast";
+"TitleTinyLauncher" = "Tiny Launcher (Add/Remove by Drag&Drop)";
 	// Preferences titles
 "WatchlistPreferences" = "Watchlist";
 	// Preferences titles

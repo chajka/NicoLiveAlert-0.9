@@ -13,20 +13,54 @@ static NSString *GeneralPrefIdentifier =	@"GeneralPreferences";
 #define GeneralImageName					NSImageNamePreferencesGeneral
 #define GeneralToolBarTitle					NSLocalizedString(@"GeneralPreferences", @"General")
 
-@interface NLAGeneralPreferenceViewController ()
+#define TitleApplicationCollaboration		NSLocalizedString(@"TitleApplicationCollaboration", @"")
+#define TitleKickCommentViewerOpenByMe		NSLocalizedString(@"TitleKickCommentViewerOpenByMe", @"")
+#define TitleKickCommentViewerAtAutoOpen	NSLocalizedString(@"TitleKickCommentViewerAtAutoOpen", @"")
+#define TitleDoNotAutoOpenInBroadcasting	NSLocalizedString(@"TitleDoNotAutoOpenInBroadcasting", @"")
+#define TitleKickStreamerOnMyBroadcast		NSLocalizedString(@"TitleKickStreamerOnMyBroadcast", @"")
+#define TitleKickCommentViewerOnMyBroadcast	NSLocalizedString(@"TitleKickCommentViewerOnMyBroadcast", @"")
+#define TitleTinyLauncher					NSLocalizedString(@"TitleTinyLauncher", @"")
 
+@interface NLAGeneralPreferenceViewController ()
+- (void) localise;
 @end
 
 @implementation NLAGeneralPreferenceViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+#pragma mark - synthesize properties
+#pragma mark - class method
+#pragma mark - constructor / destructor
+- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:GeneralPrefNibName bundle:nibBundleOrNil];
     if (self) {
-        // Initialization code here.
     }
     return self;
-}
+}// end - (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+
+#pragma mark - override
+- (void) awakeFromNib
+{
+	[self localise];
+}// end - (void) awakeFromNib
+
+#pragma mark - delegate
+#pragma mark - properties
+#pragma mark - actions
+#pragma mark - messages
+#pragma mark - private
+- (void) localise
+{
+	[boxApplicationCollaboration setTitle:TitleApplicationCollaboration];
+	[chkboxKickCommentViewerOpenByMe setTitle:TitleKickCommentViewerOpenByMe];
+	[chkboxKickCommentViewerAtAutoOpen setTitle:TitleKickCommentViewerAtAutoOpen];
+	[chkboxDoNotAutoOpenInBroadcasting setTitle:TitleDoNotAutoOpenInBroadcasting];
+	[chkboxKickStreamerOnMyBroadcast setTitle:TitleKickStreamerOnMyBroadcast];
+	[chkboxKickCommentViewerOnMyBroadcast setTitle:TitleKickCommentViewerOnMyBroadcast];
+	[boxTinyLauncher setTitle:TitleTinyLauncher];
+}// end - (void) localise
+
+#pragma mark - C functions
+
 
 #pragma mark - MASPreferencesViewController
 - (NSString *)identifier
