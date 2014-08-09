@@ -9,13 +9,22 @@
 #import "NLANotiryPreferenceViewController.h"
 #import "AudioDeviceList.h"
 
-static NSString *NotifyPrefNibName =				@"NLANotiryPreferenceView";
-static NSString *NotifyPrefIdentifier =				@"NotifyPreferences";
-static NSString *NotifyImageName =					@"Bell";
-#define	NotifyToolBarTitle							NSLocalizedString(@"NotifyPreferences", @"Notify")
+static NSString *NotifyPrefNibName =		@"NLANotiryPreferenceView";
+static NSString *NotifyPrefIdentifier =		@"NotifyPreferences";
+static NSString *NotifyImageName =			@"Bell";
+#define	NotifyToolBarTitle					NSLocalizedString(@"NotifyPreferences", @"Notify")
+
+#define TitlePlaySoundDevice				NSLocalizedString(@"TitlePlaySoundDevice", @"")
+#define TitleNotifyEntryUserProgram			NSLocalizedString(@"TitleNotifyEntryUserProgram", @"")
+#define TitleNotifyStartUserProgram			NSLocalizedString(@"TitleNotifyStartUserProgram", @"")
+#define TitleNotifyEntryOfficialProgram		NSLocalizedString(@"TitleNotifyEntryOfficialProgram", @"")
+#define TitleNotifyStartOfficialProgram		NSLocalizedString(@"TitleNotifyStartOfficialProgram", @"")
 
 @interface NLANotiryPreferenceViewController ()
-
+- (void) localise;
+- (NSArray *) soundsList;
+- (void) playSound:(NSString *)soundName;
+- (void) setupSoundNamePopupMenus;
 @end
 
 @implementation NLANotiryPreferenceViewController
@@ -34,58 +43,11 @@ static NSString *NotifyImageName =					@"Bell";
 #pragma mark - override
 - (void) awakeFromNib
 {
-	NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
-		// create audio device list
-	NSArray *outputAudioDeviceList;
-	CFDictionaryRef audioDeviceDict = CreateAudoiDeviceDict(kAudioDevicePropertyScopeOutput);
-	playbackAudioDeviceDict = [[NSDictionary alloc] initWithDictionary:(__bridge NSDictionary *)audioDeviceDict];
-	outputAudioDeviceList = [NSArray arrayWithArray:[playbackAudioDeviceDict allKeys]];
-	CFRelease(audioDeviceDict);
-
-		// create output device popup menu
-	for (NSString *deviceName in outputAudioDeviceList) {
-		[popupSoundOutoputDevice addItemWithTitle:deviceName];
-	}// end foreach
-	for (NSMenuItem *deviceNameMenuItem in [popupSoundOutoputDevice itemArray]) {
-		[deviceNameMenuItem setTarget:self];
-		[deviceNameMenuItem setAction:@selector(deviceNameSelected:)];
-	}// end foreach menu item
-	playbackDeviceName = [ud valueForKey:PrefkeyNotifySoundDeviceName];
-	[popupSoundOutoputDevice selectItemWithTitle:playbackDeviceName];
-
-		// create sound popup menu
-	NSArray *sounds = [self soundsList];
-	[popupNotifyEntryUserProgram addItemsWithTitles:sounds];
-	[popupNotifyEntryUserProgram selectItemWithTitle:[ud valueForKey:PrefkeyEntryUserProgramSound]];
-	for (NSMenuItem *soundNameItem in [popupNotifyEntryUserProgram itemArray]) {
-		[soundNameItem setTarget:self];
-		[soundNameItem setAction:@selector(entryUserProgramSoundSelected:)];
-	}// end foreach
-
-	[popupNotifyStartUserProgram addItemsWithTitles:sounds];
-	[popupNotifyStartUserProgram selectItemWithTitle:[ud valueForKey:PrefkeyStartUserProgramSound]];
-	for (NSMenuItem *soundNameItem in [popupNotifyStartUserProgram itemArray]) {
-		[soundNameItem setTarget:self];
-		[soundNameItem setAction:@selector(startUserProgramSoundSelected:)];
-	}// end foreach
-
-	[popupNotifyEntryOfficialProgram addItemsWithTitles:sounds];
-	[popupNotifyEntryOfficialProgram selectItemWithTitle:[ud valueForKey:PrefkeyEntryOfficialProgramSound]];
-	for (NSMenuItem *soundNameItem in [popupNotifyEntryOfficialProgram itemArray]) {
-		[soundNameItem setTarget:self];
-		[soundNameItem setAction:@selector(entryOfficialProgramSoundSelected:)];
-	}// end foreach
-
-	[popupNotifyStartOfficialProgram addItemsWithTitles:sounds];
-	[popupNotifyStartOfficialProgram selectItemWithTitle:[ud valueForKey:PrefkeyStartOfficialProgramSound]];
-	for (NSMenuItem *soundNameItem in [popupNotifyStartOfficialProgram itemArray]) {
-		[soundNameItem setTarget:self];
-		[soundNameItem setAction:@selector(startOfficialProgramSoundSelected:)];
-	}// end foreach
+	[self localise];
+	[self setupSoundNamePopupMenus];
 }// end - (void) awakeFromNib
 
 #pragma mark - delegate
-#pragma mark - instance method
 #pragma mark - properties
 #pragma mark - actions
 - (IBAction) deviceNameSelected:(id)sender
@@ -123,6 +85,15 @@ static NSString *NotifyImageName =					@"Bell";
 
 #pragma mark - messages
 #pragma mark - private
+- (void) localise
+{
+	[checkboxSoundOutoputDevice setTitle:TitlePlaySoundDevice];
+	[checkboxNotifyEntryUserProgram setTitle:TitleNotifyEntryUserProgram];
+	[checkboxNotifyStartUserProgram setTitle:TitleNotifyStartUserProgram];
+	[checkboxNotifyEntryOfficialProgram setTitle:TitleNotifyEntryOfficialProgram];
+	[checkboxNotifyStartOfficialProgram setTitle:TitleNotifyStartOfficialProgram];
+}// end - (void) localise
+
 - (NSArray *) soundsList
 {
 	NSString *mySoundsDir = [LocalSoundsDir stringByExpandingTildeInPath];
@@ -145,6 +116,59 @@ static NSString *NotifyImageName =					@"Bell";
 	[sound setPlaybackDeviceIdentifier:[playbackAudioDeviceDict valueForKey:playbackDeviceName]];
 	[sound play];
 }// - (void) playSound:(NSString *)soundName
+
+- (void) setupSoundNamePopupMenus
+{
+	NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+		// create audio device list
+	NSArray *outputAudioDeviceList;
+	CFDictionaryRef audioDeviceDict = CreateAudoiDeviceDict(kAudioDevicePropertyScopeOutput);
+	playbackAudioDeviceDict = [[NSDictionary alloc] initWithDictionary:(__bridge NSDictionary *)audioDeviceDict];
+	outputAudioDeviceList = [NSArray arrayWithArray:[playbackAudioDeviceDict allKeys]];
+	CFRelease(audioDeviceDict);
+	
+		// create output device popup menu
+	for (NSString *deviceName in outputAudioDeviceList) {
+		[popupSoundOutoputDevice addItemWithTitle:deviceName];
+	}// end foreach
+	for (NSMenuItem *deviceNameMenuItem in [popupSoundOutoputDevice itemArray]) {
+		[deviceNameMenuItem setTarget:self];
+		[deviceNameMenuItem setAction:@selector(deviceNameSelected:)];
+	}// end foreach menu item
+	playbackDeviceName = [ud valueForKey:PrefkeyNotifySoundDeviceName];
+	[popupSoundOutoputDevice selectItemWithTitle:playbackDeviceName];
+	
+		// create sound popup menu
+	NSArray *sounds = [self soundsList];
+	[popupNotifyEntryUserProgram addItemsWithTitles:sounds];
+	[popupNotifyEntryUserProgram selectItemWithTitle:[ud valueForKey:PrefkeyEntryUserProgramSound]];
+	for (NSMenuItem *soundNameItem in [popupNotifyEntryUserProgram itemArray]) {
+		[soundNameItem setTarget:self];
+		[soundNameItem setAction:@selector(entryUserProgramSoundSelected:)];
+	}// end foreach
+	
+	[popupNotifyStartUserProgram addItemsWithTitles:sounds];
+	[popupNotifyStartUserProgram selectItemWithTitle:[ud valueForKey:PrefkeyStartUserProgramSound]];
+	for (NSMenuItem *soundNameItem in [popupNotifyStartUserProgram itemArray]) {
+		[soundNameItem setTarget:self];
+		[soundNameItem setAction:@selector(startUserProgramSoundSelected:)];
+	}// end foreach
+	
+	[popupNotifyEntryOfficialProgram addItemsWithTitles:sounds];
+	[popupNotifyEntryOfficialProgram selectItemWithTitle:[ud valueForKey:PrefkeyEntryOfficialProgramSound]];
+	for (NSMenuItem *soundNameItem in [popupNotifyEntryOfficialProgram itemArray]) {
+		[soundNameItem setTarget:self];
+		[soundNameItem setAction:@selector(entryOfficialProgramSoundSelected:)];
+	}// end foreach
+	
+	[popupNotifyStartOfficialProgram addItemsWithTitles:sounds];
+	[popupNotifyStartOfficialProgram selectItemWithTitle:[ud valueForKey:PrefkeyStartOfficialProgramSound]];
+	for (NSMenuItem *soundNameItem in [popupNotifyStartOfficialProgram itemArray]) {
+		[soundNameItem setTarget:self];
+		[soundNameItem setAction:@selector(startOfficialProgramSoundSelected:)];
+	}// end foreach
+}// end - (void) setupSoundNamePopupMenus
+
 #pragma mark - C functions
 
 

@@ -27,7 +27,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <button id="R5K-2T-vI6">
-                    <rect key="frame" x="18" y="140" width="159" height="18"/>
+                    <rect key="frame" x="18" y="140" width="250" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" title="Play sound to device :" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="xU9-e5-hrC">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -55,7 +55,7 @@
                     </connections>
                 </popUpButton>
                 <button id="gz2-TD-zMa">
-                    <rect key="frame" x="18" y="99" width="195" height="18"/>
+                    <rect key="frame" x="18" y="99" width="250" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" title="Notify entry User program :" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="Sqj-AQ-YzI">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -67,7 +67,7 @@
                     </connections>
                 </button>
                 <button id="UyF-lx-5Ui">
-                    <rect key="frame" x="18" y="73" width="191" height="18"/>
+                    <rect key="frame" x="18" y="73" width="250" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" title="Notify start User program :" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="cLJ-DT-L96">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -79,7 +79,7 @@
                     </connections>
                 </button>
                 <button id="di5-Sz-Hyq">
-                    <rect key="frame" x="18" y="47" width="211" height="18"/>
+                    <rect key="frame" x="18" y="47" width="250" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" title="Notify entry Official program :" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="1yb-HK-DJs">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -91,7 +91,7 @@
                     </connections>
                 </button>
                 <button id="mqa-Ev-7Tb">
-                    <rect key="frame" x="18" y="21" width="207" height="18"/>
+                    <rect key="frame" x="18" y="21" width="250" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" title="Notify start Official program :" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="TW0-DI-FW0">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>

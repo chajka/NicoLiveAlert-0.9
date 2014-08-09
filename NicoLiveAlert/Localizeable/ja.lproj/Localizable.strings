@@ -11,5 +11,11 @@
 "WatchlistPreferences" = "監視リスト";
 	// Preferences titles
 "NotifyPreferences" = "通知";
+
+"TitlePlaySoundDevice" = "通知音を再生するデバイス :";
+"TitleNotifyEntryUserProgram" = "ユーザー放送予約時 :";
+"TitleNotifyStartUserProgram" = "ユーザー放送開始時 :";
+"TitleNotifyEntryOfficialProgram" = "公式放送予約時 :";
+"TitleNotifyStartOfficialProgram" = "公式放送開始時 :";
 	// Preferences titles
 "AccountPreferences" = "アカウント";

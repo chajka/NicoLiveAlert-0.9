@@ -11,5 +11,11 @@
 "WatchlistPreferences" = "Watchlist";
 	// Preferences titles
 "NotifyPreferences" = "Notify";
+
+"TitlePlaySoundDevice" = "Play sound to device :";
+"TitleNotifyEntryUserProgram" = "Notify entry User program :";
+"TitleNotifyStartUserProgram" = "Notify start User program :";
+"TitleNotifyEntryOfficialProgram" = "Notify entry Official program :";
+"TitleNotifyStartOfficialProgram" = "Notify start Official program :";
 	// Preferences titles
 "AccountPreferences" = "Account";
