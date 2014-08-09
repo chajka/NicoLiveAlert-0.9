@@ -66,6 +66,7 @@ extern "C" {
 			preferenceWindowController = [[MASPreferencesWindowController alloc] initWithViewControllers:preferencePanels title:@"Preferences"];
 			[(MASPreferencesWindowController *)preferenceWindowController selectControllerAtIndex:0];
 			
+			preferenceOpened = YES;
 		}// end autoreleasepool
 	}// end if aleready build preference window;
 

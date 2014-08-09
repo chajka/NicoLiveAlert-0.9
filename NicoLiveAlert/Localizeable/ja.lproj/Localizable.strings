@@ -1,0 +1,21 @@
+	// Preferences titles
+"GeneralPreferences" = "一般";
+"TitleApplicationCollaboration" = "アプリケーション連携";
+"TitleKickCommentViewerOpenByMe" = "メニューから開いた放送をコメントビュワーで開く";
+"TitleKickCommentViewerAtAutoOpen" = "自動で開いた放送をコメントビュワーで開く";
+"TitleDoNotAutoOpenInBroadcasting" = "自分が放送中は自動で放送を開かない";
+"TitleKickStreamerOnMyBroadcast" = "自分の放送時、外部配信ツール(FMELauncher)と連携する";
+"TitleKickCommentViewerOnMyBroadcast" = "自分の放送時、コメントビュワーと連携する";
+"TitleTinyLauncher" = "簡易ラウンチャー（ドラッグ＆ドロップで追加・削除）";
+	// Preferences titles
+"WatchlistPreferences" = "監視リスト";
+	// Preferences titles
+"NotifyPreferences" = "通知";
+
+"TitlePlaySoundDevice" = "通知音を再生するデバイス :";
+"TitleNotifyEntryUserProgram" = "ユーザー放送予約時 :";
+"TitleNotifyStartUserProgram" = "ユーザー放送開始時 :";
+"TitleNotifyEntryOfficialProgram" = "公式放送予約時 :";
+"TitleNotifyStartOfficialProgram" = "公式放送開始時 :";
+	// Preferences titles
+"AccountPreferences" = "アカウント";
